@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="092b2b58-9ce7-471d-9f94-9596a8d98aa4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="092b2b58-9ce7-471d-9f94-9596a8d98aa4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="584">
+              <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
               <folding>
                 <marker date="1550477057534" expanded="true" signature="6:78" ph="..." />
                 <marker date="1550477057534" expanded="true" signature="114:2299" ph="{...}" />
@@ -35,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Fatty.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <marker date="1550478634768" expanded="false" signature="6:78" ph="..." />
                 <marker date="1550478634768" expanded="true" signature="114:866" ph="{...}" />
@@ -155,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550476848597</updated>
-      <workItem from="1550476852706" duration="5295000" />
+      <workItem from="1550476852706" duration="6066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5295000" />
+    <option name="totallyTimeSpent" value="6066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -173,7 +170,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="885" y="0" width="1682" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -232,10 +228,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Fatty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <marker date="1550478634768" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550478634768" expanded="true" signature="114:866" ph="{...}" />
+            <marker date="1550478634768" expanded="true" signature="303:381" ph="{...}" />
+            <marker date="1550478634768" expanded="true" signature="439:480" ph="{...}" />
+            <marker date="1550478634768" expanded="true" signature="510:864" ph="{...}" />
+            <marker date="1550478634768" expanded="true" signature="678:858" ph="{...}" />
+            <marker date="1550478634768" expanded="true" signature="740:848" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        <state relative-caret-position="584">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
           <folding>
             <marker date="1550477057534" expanded="true" signature="6:78" ph="..." />
             <marker date="1550477057534" expanded="true" signature="114:2299" ph="{...}" />
@@ -248,22 +260,6 @@
             <marker date="1550477057534" expanded="true" signature="1550:1686" ph="{...}" />
             <marker date="1550477057534" expanded="true" signature="1760:2297" ph="{...}" />
             <marker date="1550477057534" expanded="true" signature="1812:2151" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Fatty.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <marker date="1550478634768" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550478634768" expanded="true" signature="114:866" ph="{...}" />
-            <marker date="1550478634768" expanded="true" signature="303:381" ph="{...}" />
-            <marker date="1550478634768" expanded="true" signature="439:480" ph="{...}" />
-            <marker date="1550478634768" expanded="true" signature="510:864" ph="{...}" />
-            <marker date="1550478634768" expanded="true" signature="678:858" ph="{...}" />
-            <marker date="1550478634768" expanded="true" signature="740:848" ph="{...}" />
           </folding>
         </state>
       </provider>
