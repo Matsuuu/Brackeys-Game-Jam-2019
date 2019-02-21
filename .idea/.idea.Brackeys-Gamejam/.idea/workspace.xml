@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="092b2b58-9ce7-471d-9f94-9596a8d98aa4" name="Default Changelist" comment="" />
+    <list default="true" id="092b2b58-9ce7-471d-9f94-9596a8d98aa4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys-Gamejam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys-Gamejam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,14 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
+            <state relative-caret-position="885">
               <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
               <folding>
-                <marker date="1550477057534" expanded="true" signature="6:78" ph="..." />
+                <marker date="1550477057534" expanded="false" signature="6:78" ph="..." />
                 <marker date="1550477057534" expanded="true" signature="114:2299" ph="{...}" />
                 <marker date="1550477057534" expanded="true" signature="370:446" ph="{...}" />
                 <marker date="1550477057534" expanded="true" signature="504:525" ph="{...}" />
@@ -32,11 +35,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/BackgroundSwapper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <marker date="1550776439629" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550776439629" expanded="true" signature="126:578" ph="{...}" />
+                <marker date="1550776439629" expanded="true" signature="270:291" ph="{...}" />
+                <marker date="1550776439629" expanded="true" signature="349:370" ph="{...}" />
+                <marker date="1550776439629" expanded="true" signature="408:576" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Camera.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <marker date="1550776336654" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550776336654" expanded="true" signature="115:514" ph="{...}" />
+                <marker date="1550776336654" expanded="true" signature="247:268" ph="{...}" />
+                <marker date="1550776336654" expanded="true" signature="326:406" ph="{...}" />
+                <marker date="1550776336654" expanded="true" signature="352:400" ph="{...}" />
+                <marker date="1550776336654" expanded="true" signature="431:512" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Fatty.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="360">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <marker date="1550478634768" expanded="false" signature="6:78" ph="..." />
                 <marker date="1550478634768" expanded="true" signature="114:866" ph="{...}" />
@@ -56,8 +92,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BackgroundSwapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fatty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Camera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,6 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scent.cs" />
         <option value="$PROJECT_DIR$/Assets/Fatty.cs" />
+        <option value="$PROJECT_DIR$/Assets/Camera.cs" />
+        <option value="$PROJECT_DIR$/Assets/BackgroundSwapper.cs" />
       </list>
     </option>
   </component>
@@ -74,8 +114,8 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="885" />
-    <option name="width" value="1682" />
+    <option name="x" value="1049" />
+    <option name="width" value="1518" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
@@ -83,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -101,6 +140,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -153,11 +193,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550476848597</updated>
       <workItem from="1550476852706" duration="6066000" />
+      <workItem from="1550775663329" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6066000" />
+    <option name="totallyTimeSpent" value="6839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -169,25 +210,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="885" y="0" width="1682" height="1087" extended-state="0" />
+    <frame x="1049" y="0" width="1518" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,14 +226,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Unity" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +263,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        <state relative-caret-position="885">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <marker date="1550477057534" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550477057534" expanded="true" signature="114:2299" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="370:446" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="504:525" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="561:1259" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1047:1161" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1305:1451" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1493:1692" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1550:1686" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1760:2297" ph="{...}" />
+            <marker date="1550477057534" expanded="true" signature="1812:2151" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Fatty.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="360">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <marker date="1550478634768" expanded="false" signature="6:78" ph="..." />
             <marker date="1550478634768" expanded="true" signature="114:866" ph="{...}" />
@@ -244,22 +300,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Camera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1550477057534" expanded="true" signature="6:78" ph="..." />
-            <marker date="1550477057534" expanded="true" signature="114:2299" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="370:446" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="504:525" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="561:1259" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1047:1161" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1305:1451" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1493:1692" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1550:1686" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1760:2297" ph="{...}" />
-            <marker date="1550477057534" expanded="true" signature="1812:2151" ph="{...}" />
+            <marker date="1550776336654" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550776336654" expanded="true" signature="115:514" ph="{...}" />
+            <marker date="1550776336654" expanded="true" signature="247:268" ph="{...}" />
+            <marker date="1550776336654" expanded="true" signature="326:406" ph="{...}" />
+            <marker date="1550776336654" expanded="true" signature="352:400" ph="{...}" />
+            <marker date="1550776336654" expanded="true" signature="431:512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BackgroundSwapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <marker date="1550776439629" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550776439629" expanded="true" signature="126:578" ph="{...}" />
+            <marker date="1550776439629" expanded="true" signature="270:291" ph="{...}" />
+            <marker date="1550776439629" expanded="true" signature="349:370" ph="{...}" />
+            <marker date="1550776439629" expanded="true" signature="408:576" ph="{...}" />
           </folding>
         </state>
       </provider>

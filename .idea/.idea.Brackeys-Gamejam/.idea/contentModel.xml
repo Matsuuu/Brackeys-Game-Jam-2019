@@ -6,6 +6,8 @@
     <e p="C:\Users\Matias\Documents\GitHub\Brackeys-Gamejam" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BackgroundSwapper.cs" t="Include" />
+        <e p="Camera.cs" t="Include" />
         <e p="Fatty.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Scent.cs" t="Include" />
