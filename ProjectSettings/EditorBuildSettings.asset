@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrashLoseScene.unity
     guid: a8a745db410455649a05370b01cf36d2
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 3a6bda1d8b870da4e99794cdbabc1869
   m_configObjects: {}
