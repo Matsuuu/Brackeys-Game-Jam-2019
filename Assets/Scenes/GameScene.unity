@@ -2416,6 +2416,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4782435278626866528, guid: 57d52ba16055d5447b02203883519f55,
+        type: 3}
+      propertyPath: m_TagString
+      value: Food
+      objectReference: {fileID: 0}
     - target: {fileID: 4355334268577477184, guid: 57d52ba16055d5447b02203883519f55,
         type: 3}
       propertyPath: highestPoint
@@ -2434,22 +2439,12 @@ PrefabInstance:
     - target: {fileID: 4355334268577477184, guid: 57d52ba16055d5447b02203883519f55,
         type: 3}
       propertyPath: moveSpeed
-      value: 10
+      value: 11.96
       objectReference: {fileID: 0}
     - target: {fileID: 4355334268577477184, guid: 57d52ba16055d5447b02203883519f55,
         type: 3}
       propertyPath: powerupDuration
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4782435278626866558, guid: 57d52ba16055d5447b02203883519f55,
-        type: 3}
-      propertyPath: emissionRate
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4782435278626866528, guid: 57d52ba16055d5447b02203883519f55,
-        type: 3}
-      propertyPath: m_TagString
-      value: Food
       objectReference: {fileID: 0}
     - target: {fileID: 4782435278626866556, guid: 57d52ba16055d5447b02203883519f55,
         type: 3}
@@ -2470,6 +2465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782435278626866558, guid: 57d52ba16055d5447b02203883519f55,
+        type: 3}
+      propertyPath: emissionRate
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57d52ba16055d5447b02203883519f55, type: 3}
