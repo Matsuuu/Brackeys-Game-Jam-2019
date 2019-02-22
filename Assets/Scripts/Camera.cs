@@ -15,19 +15,27 @@ public class Camera : MonoBehaviour
     private Transform player;
     private GameObject lastSpawnPoint;
     private Spawner spawner;
+    private GameObject lastPowerupPosition;
+    private PowerupSpawner powerupSpawner;
 
     private float distanceMovedSinceLastDrop;
+    private float distanceMovedSinceLastPowerup;
 
     public int minSpawnDifference;
     public int maxSpawnDifference;
 
     private int spawnDifference;
+
+    private int powerupSpawnDifference;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Eater").transform;
         lastSpawnPoint = GameObject.FindGameObjectWithTag("LastSpawnPoint");
+        lastPowerupPosition = GameObject.FindGameObjectWithTag("LastPowerupSpawnPoint");
         spawner = GameObject.FindGameObjectWithTag("Spawner").GetComponent<Spawner>();
+        powerupSpawner = GameObject.FindGameObjectWithTag("PowerupSpawner").GetComponent<PowerupSpawner>();
+        powerupSpawnDifference = maxSpawnDifference;
     }
 
     // Update is called once per frame
@@ -40,6 +48,7 @@ public class Camera : MonoBehaviour
 
         HandleFollowing();
         HandleDrops();
+        HandlePowerups();
     }
 
     private void HandleFollowing()
@@ -64,6 +73,17 @@ public class Camera : MonoBehaviour
             Vector3 lastPos = lastSpawnPoint.transform.position;
             lastSpawnPoint.transform.position = new Vector3(transform.position.x, lastPos.y, lastPos.z);
             spawnDifference = Random.Range(minSpawnDifference, maxSpawnDifference);
+        }
+    }
+
+    void HandlePowerups()
+    {
+        distanceMovedSinceLastPowerup = Vector2.Distance(transform.position, lastPowerupPosition.transform.position);
+        if (distanceMovedSinceLastPowerup > powerupSpawnDifference)
+        {
+            powerupSpawner.RollTheDice();
+            Vector3 lastPos = lastPowerupPosition.transform.position;
+            lastPowerupPosition.transform.position = new Vector3(transform.position.x, lastPos.y, lastPos.z);
         }
     }
 }

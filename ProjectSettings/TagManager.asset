@@ -14,6 +14,9 @@ TagManager:
   - PointSystem
   - Food
   - PointText
+  - LastPowerupSpawnPoint
+  - PowerupSpawner
+  - Crane
   layers:
   - Default
   - TransparentFX

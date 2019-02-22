@@ -5,14 +5,17 @@ using UnityEngine;
 public class Crane : MonoBehaviour
 {
     public float moveSpeed;
+    private float startMovespeed;
 
     public float highestPoint;
 
     public float lowestPoint;
+
+    public int powerupDuration;
     // Start is called before the first frame update
     void Start()
     {
-        
+        startMovespeed = moveSpeed;
     }
 
     // Update is called once per frame
@@ -38,5 +41,17 @@ public class Crane : MonoBehaviour
         }
         
         transform.Translate(new Vector3(horizontalAxis, verticalAxis, 0) * moveSpeed * Time.deltaTime);
+    }
+    
+    public void Boost()
+    {
+        StartCoroutine(DoBoost());
+    }
+
+    private IEnumerator DoBoost()
+    {
+        moveSpeed = startMovespeed * 1.2f;
+        yield return new WaitForSeconds(powerupDuration);
+        moveSpeed = startMovespeed;
     }
 }

@@ -20,7 +20,6 @@ public class Waypoint : MonoBehaviour
         
         if (nextWayPointHasBeenSet)
         {
-            Debug.Log("Changing target");
             player.GetComponent<Eater>().setTarget(nextWayPoint);
             Destroy(gameObject);
         }
