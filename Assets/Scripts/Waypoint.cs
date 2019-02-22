@@ -7,6 +7,11 @@ public class Waypoint : MonoBehaviour
     public GameObject nextWayPoint;
     private bool nextWayPointHasBeenSet = false;
 
+    private void Start()
+    {
+        Destroy(gameObject, 10);
+    }
+
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Eater"))
