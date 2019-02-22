@@ -17,9 +17,12 @@ public class Camera : MonoBehaviour
     private Spawner spawner;
     private GameObject lastPowerupPosition;
     private PowerupSpawner powerupSpawner;
+    private GameObject lastCollectiblePoint;
+    private CollectibleSpawner collectibleSpawner;
 
     private float distanceMovedSinceLastDrop;
     private float distanceMovedSinceLastPowerup;
+    private float distanceMovedSinceLastCollectible;
 
     public int minSpawnDifference;
     public int maxSpawnDifference;
@@ -27,15 +30,20 @@ public class Camera : MonoBehaviour
     private int spawnDifference;
 
     private int powerupSpawnDifference;
+
+    private int collectibleSpawnDifference;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Eater").transform;
         lastSpawnPoint = GameObject.FindGameObjectWithTag("LastSpawnPoint");
         lastPowerupPosition = GameObject.FindGameObjectWithTag("LastPowerupSpawnPoint");
+        lastCollectiblePoint = GameObject.FindGameObjectWithTag("LastCollectibleSpawnPoint");
         spawner = GameObject.FindGameObjectWithTag("Spawner").GetComponent<Spawner>();
         powerupSpawner = GameObject.FindGameObjectWithTag("PowerupSpawner").GetComponent<PowerupSpawner>();
+        collectibleSpawner = GameObject.FindGameObjectWithTag("CollectibleSpawner").GetComponent<CollectibleSpawner>();
         powerupSpawnDifference = maxSpawnDifference;
+        collectibleSpawnDifference = maxSpawnDifference;
     }
 
     // Update is called once per frame
@@ -49,6 +57,7 @@ public class Camera : MonoBehaviour
         HandleFollowing();
         HandleDrops();
         HandlePowerups();
+        HandleCollectibles();
     }
 
     private void HandleFollowing()
@@ -84,6 +93,17 @@ public class Camera : MonoBehaviour
             powerupSpawner.RollTheDice();
             Vector3 lastPos = lastPowerupPosition.transform.position;
             lastPowerupPosition.transform.position = new Vector3(transform.position.x, lastPos.y, lastPos.z);
+        }
+    }
+
+    private void HandleCollectibles()
+    {
+        distanceMovedSinceLastCollectible = Vector2.Distance(transform.position, lastCollectiblePoint.transform.position);
+        if (distanceMovedSinceLastCollectible > collectibleSpawnDifference)
+        {
+            collectibleSpawner.SpawnCollectible();
+            Vector3 lastPos = lastCollectiblePoint.transform.position;
+            lastCollectiblePoint.transform.position = new Vector3(transform.position.x, lastPos.y, lastPos.z);
         }
     }
 }

@@ -17,6 +17,9 @@ TagManager:
   - LastPowerupSpawnPoint
   - PowerupSpawner
   - Crane
+  - Collectible
+  - CollectibleSpawner
+  - LastCollectibleSpawnPoint
   layers:
   - Default
   - TransparentFX

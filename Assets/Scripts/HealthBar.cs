@@ -11,6 +11,7 @@ public class HealthBar : MonoBehaviour
     public Sprite currentSprite;
     public Image healthImage;
 
+    public SpriteRenderer pie;
     public Slider slider;
     // Start is called before the first frame update
     void Start()
@@ -45,26 +46,31 @@ public class HealthBar : MonoBehaviour
         if (health >= 80)
         {
             currentSprite = healthSprites[0];
+            pie.sprite = healthSprites[0];
         }
 
         if (health < 80 && health >= 60)
         {
             currentSprite = healthSprites[1];
+            pie.sprite = healthSprites[1];
         }
 
         if (health < 60 && health >= 40)
         {
             currentSprite = healthSprites[2];
+            pie.sprite = healthSprites[2];
         }
 
         if (health < 40 && health >= 20)
         {
             currentSprite = healthSprites[3];
+            pie.sprite = healthSprites[3];
         }
 
         if (health < 20)
         {
             currentSprite = healthSprites[4];
+            pie.sprite = healthSprites[4];
         }
 
         healthImage.sprite = currentSprite;

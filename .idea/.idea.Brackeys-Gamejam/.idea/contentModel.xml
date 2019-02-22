@@ -6,13 +6,11 @@
     <e p="C:\Users\Matias\Documents\GitHub\Brackeys-Gamejam" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="MenuSceneManager.cs" t="Include" />
-        <e p="PointSystem.cs" t="Include" />
-        <e p="Powerup.cs" t="Include" />
-        <e p="PowerupSpawner.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BackgroundSwapper.cs" t="Include" />
           <e p="Camera.cs" t="Include" />
+          <e p="Collectible.cs" t="Include" />
+          <e p="CollectibleSpawner.cs" t="Include" />
           <e p="Crane.cs" t="Include" />
           <e p="Eater.cs" t="Include" />
           <e p="EaterCollision.cs" t="Include" />
@@ -21,8 +19,12 @@
           <e p="Food.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="LoseSceneManager.cs" t="Include" />
+          <e p="MenuSceneManager.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
           <e p="ObstacleSpawner.cs" t="Include" />
+          <e p="PointSystem.cs" t="Include" />
+          <e p="Powerup.cs" t="Include" />
+          <e p="PowerupSpawner.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Waypoint.cs" t="Include" />
         </e>
