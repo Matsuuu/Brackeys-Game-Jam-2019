@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Food : MonoBehaviour
 {
@@ -51,12 +52,13 @@ public class Food : MonoBehaviour
         canBeHurt = true;
         if (healthBar.health <= 0)
         {
-            EndGame();
+            HealthEndGame();
         }
     }
 
-    private void EndGame()
+    private void HealthEndGame()
     {
-        
+        SceneManager.LoadScene("PieLoseScene");
     }
+
 }

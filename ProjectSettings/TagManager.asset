@@ -10,6 +10,10 @@ TagManager:
   - HealthBar
   - Waypoint
   - LastSpawnPoint
+  - Obstacle
+  - PointSystem
+  - Food
+  - PointText
   layers:
   - Default
   - TransparentFX
