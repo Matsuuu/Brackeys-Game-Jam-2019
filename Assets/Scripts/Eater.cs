@@ -25,6 +25,10 @@ public class Eater : MonoBehaviour
     {
         if (isMoving)
         {
+            if (target == null)
+            {
+                target = GameObject.FindGameObjectWithTag("Waypoint");
+            }
             transform.position =
                 Vector2.MoveTowards(transform.position, target.transform.position, moveSpeed * Time.deltaTime);
         }

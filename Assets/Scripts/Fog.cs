@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundSwapper : MonoBehaviour
+public class Fog : MonoBehaviour
 {
-    public GameObject otherBackground;
-
-    public int backgroundWidth;
+    public int moveSpeed;
+    public int fogWidth;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +15,12 @@ public class BackgroundSwapper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
     }
-
+    
     private void OnBecameInvisible()
     {
-        Debug.Log("Katosi");
         Vector3 pos = transform.position;
-        transform.position = new Vector3(pos.x + backgroundWidth * 2, pos.y, pos.z);
+        transform.position = new Vector3(pos.x + fogWidth * 2, pos.y, pos.z);
     }
 }
