@@ -15,6 +15,8 @@ public class Eater : MonoBehaviour
     private Animator animator;
 
     public int moveSpeedIncreaseDistance;
+
+    public int openMouthDistance;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class Eater : MonoBehaviour
     {
         HandleMovement();
         HandleSpeed();
+        HandleAnimations();
     }
 
     private void HandleMovement()
@@ -52,6 +55,18 @@ public class Eater : MonoBehaviour
         else
         {
             moveSpeed = startMovespeed;
+        }
+    }
+
+    private void HandleAnimations()
+    {
+        if (Vector3.Distance(transform.position, food.transform.position) < openMouthDistance)
+        {
+            StartEating();
+        }
+        else
+        {
+            StopEating();
         }
     }
 

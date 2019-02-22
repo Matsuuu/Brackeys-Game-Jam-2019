@@ -42,17 +42,8 @@ public class Food : MonoBehaviour
     {
         if (other.CompareTag("Eater") && canBeHurt)
         {
-            eater.StartEating();
             canBeHurt = false;
             StartCoroutine(DecreaseHealth());
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Eater"))
-        {
-            eater.StopEating();
         }
     }
 
