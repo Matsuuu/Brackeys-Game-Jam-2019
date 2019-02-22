@@ -11,9 +11,11 @@
         <e p="Eater.cs" t="Include" />
         <e p="Fatty.cs" t="Include" />
         <e p="Food.cs" t="Include" />
+        <e p="ObstacleSpawner.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Scent.cs" t="Include" />
         </e>
+        <e p="Spawner.cs" t="Include" />
         <e p="Waypoint.cs" t="Include" />
       </e>
       <e p="Brackeys-Gamejam.sln" t="IncludeFlat" />

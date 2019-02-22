@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="092b2b58-9ce7-471d-9f94-9596a8d98aa4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys-Gamejam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys-Gamejam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Camera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -65,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Waypoint.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -79,6 +77,23 @@
                 <marker date="1550845824417" expanded="true" signature="503:664" ph="{...}" />
                 <marker date="1550845824417" expanded="true" signature="677:816" ph="{...}" />
                 <marker date="1550845824417" expanded="true" signature="875:969" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Spawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <marker date="1550847225204" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550847225204" expanded="true" signature="116:1091" ph="{...}" />
+                <marker date="1550847225204" expanded="true" signature="318:492" ph="{...}" />
+                <marker date="1550847225204" expanded="true" signature="550:780" ph="{...}" />
+                <marker date="1550847225204" expanded="true" signature="597:646" ph="{...}" />
+                <marker date="1550847225204" expanded="true" signature="813:1089" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,7 +129,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Fatty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Food.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ObstacleSpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,6 +144,8 @@
         <option value="$PROJECT_DIR$/Assets/Food.cs" />
         <option value="$PROJECT_DIR$/Assets/Camera.cs" />
         <option value="$PROJECT_DIR$/Assets/Waypoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/ObstacleSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Spawner.cs" />
       </list>
     </option>
   </component>
@@ -216,12 +235,12 @@
       <updated>1550476848597</updated>
       <workItem from="1550476852706" duration="6066000" />
       <workItem from="1550775663329" duration="1375000" />
-      <workItem from="1550843469957" duration="2349000" />
+      <workItem from="1550843469957" duration="3942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9790000" />
+    <option name="totallyTimeSpent" value="11383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,6 +436,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ObstacleSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <marker date="1550847070469" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550847070469" expanded="true" signature="124:474" ph="{...}" />
+            <marker date="1550847070469" expanded="true" signature="264:339" ph="{...}" />
+            <marker date="1550847070469" expanded="true" signature="397:418" ph="{...}" />
+            <marker date="1550847070469" expanded="true" signature="451:472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Waypoint.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -430,6 +463,21 @@
             <marker date="1550845824417" expanded="true" signature="503:664" ph="{...}" />
             <marker date="1550845824417" expanded="true" signature="677:816" ph="{...}" />
             <marker date="1550845824417" expanded="true" signature="875:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <marker date="1550847225204" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550847225204" expanded="true" signature="116:1091" ph="{...}" />
+            <marker date="1550847225204" expanded="true" signature="318:492" ph="{...}" />
+            <marker date="1550847225204" expanded="true" signature="550:780" ph="{...}" />
+            <marker date="1550847225204" expanded="true" signature="597:646" ph="{...}" />
+            <marker date="1550847225204" expanded="true" signature="813:1089" ph="{...}" />
           </folding>
         </state>
       </provider>
