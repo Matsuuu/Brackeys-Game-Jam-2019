@@ -47,7 +47,7 @@ public class Camera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         if (scroll)
         {
@@ -64,7 +64,9 @@ public class Camera : MonoBehaviour
     {
         if (followPlayer)
         {
-            transform.position = new Vector3(player.position.x + playerOffset, transform.position.y, transform.position.z);
+            //transform.position = new Vector3(player.position.x + playerOffset, transform.position.y, transform.position.z);
+            Vector3 targetPos = new Vector3(player.transform.position.x + playerOffset, transform.position.y, transform.position.z);
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, cameraMoveSpeed);
         }
     }
 
