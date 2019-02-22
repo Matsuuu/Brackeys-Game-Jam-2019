@@ -11,6 +11,7 @@ public class Food : MonoBehaviour
     
     public GameObject waypoint;
     public GameObject lastWaypoint;
+    public Eater eater;
 
     private HealthBar healthBar;
     private bool canBeHurt;
@@ -19,6 +20,7 @@ public class Food : MonoBehaviour
 
     void Start()
     {
+        eater = GameObject.FindGameObjectWithTag("Eater").GetComponent<Eater>();
         canBeHurt = true;
         healthBar = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<HealthBar>();
         GameObject startingWaypoint = Instantiate(waypoint, transform.position, transform.rotation);
@@ -40,8 +42,17 @@ public class Food : MonoBehaviour
     {
         if (other.CompareTag("Eater") && canBeHurt)
         {
+            eater.StartEating();
             canBeHurt = false;
             StartCoroutine(DecreaseHealth());
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Eater"))
+        {
+            eater.StopEating();
         }
     }
 

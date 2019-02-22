@@ -12,11 +12,13 @@ public class Eater : MonoBehaviour
 
     private float startMovespeed;
     public float moveSpeed;
+    private Animator animator;
 
     public int moveSpeedIncreaseDistance;
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         food = GameObject.FindGameObjectWithTag("Food");
         startMovespeed = moveSpeed;
     }
@@ -56,6 +58,16 @@ public class Eater : MonoBehaviour
     public void setTarget(GameObject go)
     {
         this.target = go;
+    }
+
+    public void StartEating()
+    {
+        animator.SetBool("IsEating", true);
+    }
+
+    public void StopEating()
+    {
+        animator.SetBool("IsEating", false);
     }
 
 }
