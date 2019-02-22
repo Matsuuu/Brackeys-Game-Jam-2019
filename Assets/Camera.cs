@@ -8,10 +8,14 @@ public class Camera : MonoBehaviour
     public bool scroll;
 
     public float cameraMoveSpeed;
+
+    public bool followPlayer;
+
+    private Transform player;
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Eater").transform;
     }
 
     // Update is called once per frame
@@ -20,6 +24,16 @@ public class Camera : MonoBehaviour
         if (scroll)
         {
             ScrollCamera();
+        }
+
+        HandleFollowing();
+    }
+
+    private void HandleFollowing()
+    {
+        if (followPlayer)
+        {
+            transform.position = new Vector3(player.position.x, transform.position.y, transform.position.z);
         }
     }
 
